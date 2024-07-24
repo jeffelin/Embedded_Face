@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Human-Detection-PGSS",
+			"path": "../Human-Detection-PGSS"
+		},
+		{
+			"name": "face_det_hardware",
+			"path": ".."
+		},
+		{
+			"name": "PGSS",
+			"path": "../../PGSS"
+		}
+	],
+	"settings": {}
+}
