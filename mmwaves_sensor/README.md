@@ -1,7 +1,7 @@
 # mmwave_sensor code for SEED MR24HPC1 
 
 
-Run code for various definitions of hexadecimals and bytes.
+Run code for various definitions of hexadecimals and bytes @spy_mmtest.py
 
 
 
