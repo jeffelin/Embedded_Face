@@ -73,7 +73,7 @@ def specificity(matrix):
 
 # MAIN:
 
-dataset = np.array(pd.read_csv('modelData.csv'))
+dataset = np.array(pd.read_csv(r'C:\Users\jeffe\Downloads\face_det_hardware\HumanDetection-Kinect-Mmwave\model\ThermalOcc.csv'))
 target_data = dataset[:, 5] # UPDATE
 num_entries = len(dataset)
 
