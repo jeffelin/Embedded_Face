@@ -6,6 +6,7 @@ import mm_wave as mm_wave
 from mm_wave import *
 
 
+##Initial code courtesy of Andrew McGuire @https://echogatetech.com/
 
 ########definitions:
 MESSAGE_HEADER_1 = bytes.fromhex('53')
@@ -54,8 +55,30 @@ SEEED_HUMAN_UNIT = 0.5     #Calculate unit steps
 RESET_FRAME_STRINGS = ["53", "59", "01", "02", "00", "01", "0F", "BF", "54", "43"]
 RESET_FRAME = bytes.fromhex(''.join(RESET_FRAME_STRINGS))
 
+#Various commands that can be moved around at discretion: 
+
+import serial
+import time
+
+ser = serial.Serial ('/dev/ttyS0' , 115200, timeout=1)
+time.sleep(2) 
+
+def read_data(): 
+	if ser.in_waiting >0: 
+		data = ser.readline().decode('utf-8').rstrip() 
+		print(f"Receive data: {data}")
 
 
+try:
+	while True: 
+		read_data() 
+except KeyboardInterrupt:
+	ser.close()
+	print("Serial connection closed.")  
+
+
+
+#Dataframes for sending and receiving 
 def make_data_frame(commandData):
     header_data = ["53","59"]
     partial = bytes.fromhex(''.join(header_data + commandData))
