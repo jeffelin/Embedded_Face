@@ -1,3 +1,5 @@
+##Initial testing case to see whether or not mmwave is connected to serial
+
 import serial
 import time
 
