@@ -2,9 +2,7 @@
 
 ## Team
 
-Rohan Dalal, Lukas Dimitroff, Akpandu Ekezie, Linnea Funari, Ashley Jang,  
-Jefferson Lin, Shivam Maheshwari, Anshi Paul, Aadhavan Raja Nainar,  
-Srishti Swaminathan, Andrew Xia, Hanning Yan, Joshua Yuen  
+Rohan Dalal, Lukas Dimitroff, Akpandu Ekezie, Linnea Funari, Ashley Jang,  Jefferson Lin, Shivam Maheshwari, Anshi Paul, Aadhavan Raja Nainar,  Srishti Swaminathan, Andrew Xia, Hanning Yan, Joshua Yuen  
 
 **Faculty Advisor:** Mr. Andrew McGuier  
 **Teaching Assistants:** Ogechi Anyamele, Trinity Patterson, Sophia Zhu  
