@@ -1,4 +1,6 @@
-# HumanDetection-PGSS
+# Project Overview 
+
+Achieving 99.2% accuarcy with facial detection! 
 
 ## Team
 
